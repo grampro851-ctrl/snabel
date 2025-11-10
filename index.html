@@ -35,12 +35,27 @@
     h2 {
       color: #4CAF50;
     }
+    ul {
+      padding-right: 20px;
+    }
     footer {
       background-color: #eee;
       text-align: center;
       padding: 15px;
       font-size: 14px;
       color: #666;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .gallery img {
+      width: 250px;
+      border-radius: 8px;
+      border: 2px solid #ccc;
     }
   </style>
 </head>
@@ -52,8 +67,7 @@
   </header>
 
   <div class="logo">
-    <!-- أدخل رابط الصورة هنا -->
-    <img src="img/5954103748332733837.jpg">
+    <img src="img/5954103748332733837.jpg" alt="شعار الجمعية">
   </div>
 
   <section>
@@ -80,6 +94,15 @@
       <li>دعم التعليم والتدريب المهني</li>
     </ul>
 
+    <h2>📸 صور من مشاريعنا</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/300x200?text=مشروع+1" alt="مشروع 1">
+      <img src="https://via.placeholder.com/300x200?text=مشروع+2" alt="مشروع 2">
+      <img src="https://via.placeholder.com/300x200?text=مشروع+3" alt="مشروع 3">
+      <img src="https://via.placeholder.com/300x200?text=مشروع+4" alt="مشروع 4">
+      <img src="https://via.placeholder.com/300x200?text=مشروع+5" alt="مشروع 5">
+      <img src="https://via.placeholder.com/300x200?text=مشروع+6" alt="مشروع 6">
+    </div>
   </section>
 
   <footer>
@@ -87,5 +110,4 @@
   </footer>
 
 </body>
-
 </html>
